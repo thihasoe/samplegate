@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>index</title>
+	<style type="text/css" media="screen">
+		#container{
+			width: 800px;
+			height: 400px;
+			border: 1px solid gray;
+		}
+		ul.dropdown{
+			
+		}			
+		ul.dropdown li{
+			position: relative;	
+			display: inline;
+			border: 1px solid red;
+			
+		}
+		
+		ul.dropdown li a{
+			text-decoration: none;
+		}
+		ul.subitem{
+			display: block;
+		}
+		ul.suitem li{
+			display:block;
+		}
+	</style>		
+	<script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+	<script type="text/javascript" charset="utf-8" src="dropdown.js"></script>
+	</head>
+	<body id="index" onload="">
+	 <div id="container">
+		<ul class="dropdown">
+			<li><a href="#">Home</a></li>
+			<li class="dropdown_trigger"><a href="#">ITsolution</a>
+				<ul class="subitem">
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		      </ul>
+			</li>
+			
+			<li class="dropdown_trigger"><a href="#">service</a>
+				<ul>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		        <li>
+		          <a href="#">Subitem</a>
+		        </li>
+		      </ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>
